@@ -2,6 +2,8 @@
 
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
 body{
@@ -26,8 +28,8 @@ body{
 .box img{
     padding: 20px 20px;
     border-radius: 50px;
-    width:90%;
-    margin-left:7px;
+    width:100%;
+
 }
 
 div.text{
@@ -60,11 +62,13 @@ div.text{
     .box img{
         padding: 20px 20px;
         border-radius: 50px;
-        width:87%;
+        width:100%;
     }
     div.text{
-        padding: 40px 20px;
-        Font-size: 20px;
-        margin-top:-30px;
+        font-size: 1em;
+        padding: 40px 40px;
+    }
+    div.text #big-text{
+        font-size: 1.5em;
     }
 }
